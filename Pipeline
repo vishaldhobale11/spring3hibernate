@@ -1,0 +1,9 @@
+node {
+    stage("Clonning codebase") {
+        git 'https://github.com/opstree/spring3hibernate'
+    }
+    stage("Building Code") {
+        sh "mvn clean package"
+    }
+}
+
