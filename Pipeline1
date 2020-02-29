@@ -1,0 +1,5 @@
+node {
+     stage("Building Code") {
+        sh "mvn clean package"
+    }
+}
