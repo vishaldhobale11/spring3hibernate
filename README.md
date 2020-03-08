@@ -24,6 +24,7 @@ hibernate.show_sql=true
 hibernate.hbm2ddl.auto=update
 upload.dir=c:/uploads
 ```
+Some thing is Good.
 
 **Note:- The location of file is [src/main/resources/database.properties](src/main/resources/database.properties)**
 
