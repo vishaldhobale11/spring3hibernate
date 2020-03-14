@@ -1,0 +1,4 @@
+vandana,install,lsof
+vandana,install,nginx
+vandana,copy,/etc/passwd,/tmp/passwd
+vandana,service,httpd
